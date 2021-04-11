@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 700px;
+    padding: 3em;
+    background: rgba(128, 128, 128, 0.2);
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .23em
+}
+
+form {
+    margin: 3em 0;
+}
+
+h4 {
+    margin-top: 2em;
+}
+
+.input-group {
+    max-width: 500px;
+}
+
+.input-box {
+    width: 100%;
+    margin-bottom: .5em;
+}
+
+input.name {
+    width: 80%;
+    max-width: 400px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #000;
+    background: transparent;
+    outline: none;
+}
+
+input.dob {
+    max-width: 100px;
+    width: 30%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #000;
+    background: transparent;
+    outline: none;
+}
+
+::placeholder {
+    padding-left: 10px;
+}
+
+input:hover {
+    border-bottom: 1px solid turquoise;
+}
+
+input:hover~i {
+    color: turquoise;
+    margin-left: 20px;
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+}
+
+input.radio+input.radio {
+    margin-left: 100px;
+}
+
+label {
+    color: rgba(128, 128, 128, 0.8);
+}
+
+label i {
+    color: rgba(128, 128, 128, 0.8);
+    padding-left: 10px;
+}
+
+input[type=tel] {
+    height: 30px;
+    width: 60%;
+    max-width: 300px;
+    border: none;
+    border-bottom: 2px solid #000;
+    background: transparent;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    max-width: 400px;
+    padding: .5em 0;
+    margin-top: 1.5em;
+    border: none;
+    outline: none;
+    background: rgba(128, 128, 128, 0.8);
+    color: #ffefef;
+    font-size: 1rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+select {
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #000;
+    background: transparent;
+    outline: none;
+}
+
+button:hover {
+    background: turquoise;
+    color: white;
+}
